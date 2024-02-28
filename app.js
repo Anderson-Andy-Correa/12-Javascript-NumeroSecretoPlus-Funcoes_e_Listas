@@ -1,4 +1,6 @@
-let numerosSorteados = [];
+let listaNumerosSorteados = [];
+let numeroMinimo = 1;
+let numeroMaximo = 10;
 let numereroSecreto = gerarNumeroAleatorio();
 let tentativas = 0;
 
@@ -36,14 +38,16 @@ function verificarChute() {
 };
 
 function gerarNumeroAleatorio() {
-    let numeroMinimo = 1;
-    let numeroMaximo = 4;
     let numeroAleatorio = parseInt(Math.random() * (numeroMaximo - numeroMinimo + 1) + numeroMinimo);
-    if (numerosSorteados.includes(numeroAleatorio)) {
+    
+    if (listaNumerosSorteados.length == (numeroMaximo - numeroMinimo) + 1) {
+        listaNumerosSorteados = []
+    }
+
+    if (listaNumerosSorteados.includes(numeroAleatorio)) {
         return gerarNumeroAleatorio();
     } else {
-        numerosSorteados.push(numeroAleatorio);
-        console.log(numerosSorteados);
+        listaNumerosSorteados.push(numeroAleatorio);
         return numeroAleatorio;
     };
 };
