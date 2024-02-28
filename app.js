@@ -28,11 +28,8 @@ function verificarChute() {
         document.getElementById('reiniciar').removeAttribute('disabled');
         document.getElementById('chutar').setAttribute('disabled', true);
     } else {
-        if (chute > numereroSecreto) {
-            exibirTextoNaTela('p', 'O númemero secreto é menor');
-        } else {
-            exibirTextoNaTela('p', 'O númemero secreto é maior');
-        };
+        let comparacao = chute > numereroSecreto ? 'menor' : 'maior'
+        exibirTextoNaTela('p', `O número secreto é ${comparacao}`)
         limparCampo();
     };
 };
