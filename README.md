@@ -11,7 +11,7 @@ Projeto utilizado nos cursos de lógica de programação da Alura. Avançando co
 📙🧠 [Lógica de programação: explore funções e listas](https://cursos.alura.com.br/course/logica-programacao-funcoes-listas)
 
 ## Demonstração
-![Demonstração completa do jogo](Demosntracao_NumeroSecretoPlus.gif)
+![Demonstração completa do jogo](img/Demosntracao_NumeroSecretoPlus.gif)
 
 ## 🚀 Tecnologias
 <div>
