@@ -2,7 +2,7 @@
 
 <h2>🎮 Acesso</h2>
 
-Para jogar, use sse esse [link](https://numero-secreto-plus.vercel.app/).
+Para jogar, use sse esse [link](https://numero-secreto-plus.vercel.app/). Para questões de acessibilidade e ativação do responseveVoice, use o navegador Chrome.
 
 <h2>🔖 Sobre</h2>
 
@@ -22,5 +22,5 @@ Projeto utilizado nos cursos de lógica de programação da Alura. Avançando co
 
 # Time
 
-| [<img loading="lazy" src="https://avatars.githubusercontent.com/u/106445568?v=4" width=115><br><sub>Anderson Corrêa</sub>](https://github.com/gabrielle-ribeiro) 
+| [<img loading="lazy" src="https://avatars.githubusercontent.com/u/106445568?v=4" width=115><br><sub>Anderson Corrêa</sub>](https://github.com/Anderson-Andy-Correa) 
 | :---: |
