@@ -3,6 +3,7 @@
 <h2>🎮 Acesso</h2>
 
 Para jogar, use sse esse [link](https://numero-secreto-plus.vercel.app/). 
+
 Para questões de acessibilidade e ativação do responseveVoice, use o navegador Chrome.
 
 <h2>🔖 Sobre</h2>
